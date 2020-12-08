@@ -12,4 +12,5 @@ with open("data_users.csv", "r", encoding="utf8", newline="\r\n") as file:
     read_file = csv.reader(file)
     dados = list(read_file)
 
-print(dados)
+for lines in dados:
+    print(lines)
